@@ -1,7 +1,7 @@
 import { SvgIconProps } from '@/typings';
 import React from 'react';
 
-const WebIcon: React.FC<SvgIconProps> = ({ width = "79", height = "78", ...props }) => (
+const WebIcon: React.FC<SvgIconProps> = ({ width = "95", height = "78", ...props }) => (
     <svg width={width} height={height} {...props} viewBox="0 0 79 78" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <circle cx="39.3231" cy="38.9999" r="38.2692" fill="white" stroke="#016D5B" />
         <rect x="21.6615" y="21.769" width="35.3231" height="35.3231" fill="url(#pattern5)" />

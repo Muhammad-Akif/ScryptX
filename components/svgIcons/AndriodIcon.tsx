@@ -1,7 +1,7 @@
 import { SvgIconProps } from '@/typings';
 import React from 'react';
 
-const AndriodIcon: React.FC<SvgIconProps> = ({ width = "98", height = "83", ...props }) => (
+const AndriodIcon: React.FC<SvgIconProps> = ({ width = "95", height = "78", ...props }) => (
     <svg width={width} height={height} {...props} viewBox="0 0 98 83" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <circle cx="48.3688" cy="43.5847" r="38.2692" fill="white" stroke="#016D5B" />
         <rect x="0.123047" y="0.507812" width="96.9231" height="64.6154" fill="url(#pattern2)" />

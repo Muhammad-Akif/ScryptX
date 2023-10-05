@@ -1,5 +1,6 @@
 import React from 'react'
 import MountainBack from '../svgIcons/MountainBack';
+import ArrowRight from '../svgIcons/ArrowRight';
 
 const BookDemoBanner = () => {
     return (
@@ -10,7 +11,7 @@ const BookDemoBanner = () => {
                         <h4 className='text-gray-500 text-sm md:text-md'>Let’s Connect</h4>
                         <h1 className="text-4xl md:text-3xl font-semibold text-[#016D5B]">Book Your
                             Demo Today</h1>
-                        <p className="text-base text-gray-500 md:text-md">
+                        <p className="text-base py-2 text-gray-500 md:text-md">
                             Experience our cutting-edge technology in action! Book a demo today  and discover the future of innovation.
                         </p>
                     </div>
@@ -18,15 +19,33 @@ const BookDemoBanner = () => {
                         <MountainBack />
                     </div>
                 </div>
-                <div className="flex rounded-lg flex-col md:flex-row items-strech justify-between bg-gray-50 py-6 px-6 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
-                    <div className="flex flex-col justify-center md:w-1/2">
-                        <h1 className="text-3xl lg:text-4xl font-semibold text-gray-800">Best Deal</h1>
-                        <p className="text-base lg:text-xl text-gray-800 mt-2">
-                            Save upto <span className="font-bold">50%</span>
+                <div className="flex rounded-lg flex-col md:flex-row items-strech justify-between bg-white bg-opacity-5 py-6 px-6 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
+                    <div className="flex flex-col justify-center md:w-1/2 text-left">
+                        <h1 className="text-4xl md:text-3xl font-semibold text-white">Why You
+                            Choose ScryptX</h1>
+                        <p className="text-base py-2 text-gray-100 md:text-md">
+                            Experience our cutting-edge technology in action! Book a demo today  and discover the future of innovation.
                         </p>
+                        <button className="px-8 rounded-md py-3 md:w-[51%] text-white  bg-gradient-to-r from-[#016D5B] to-[#017973] ">
+                            <span className="flex text-white"> Get Started <ArrowRight width="20" className="ms-2" /></span>
+                        </button>
                     </div>
                     <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
-                        <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" />
+                        <div className='flex justify-center items-center'>
+                            <div className='pe-8'>
+                                <h1 className="text-4xl md:text-3xl font-semibold text-white">1200</h1>
+                                <p className="text-base py-2 text-gray-100 md:text-md">
+                                    Satisfied Clients
+                                </p>
+                            </div>
+                            <div className='h-[80%] border-l-4 border-[#016D5B]' />
+                            <div className='ps-4'>
+                                <h1 className="text-4xl md:text-3xl font-semibold text-white">120K</h1>
+                                <p className="text-base py-2 text-gray-100 md:text-md">
+                                    Chrome Extensions Installed
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

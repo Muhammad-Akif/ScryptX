@@ -1,7 +1,7 @@
 import { SvgIconProps } from '@/typings';
 import React from 'react';
 
-const ChromeIcon: React.FC<SvgIconProps> = ({ width = "85", height = "78", ...props }) => (
+const ChromeIcon: React.FC<SvgIconProps> = ({ width = "95", height = "78", ...props }) => (
     <svg width={width} height={height} {...props} viewBox="0 0 85 78" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <circle cx="42.7689" cy="38.9999" r="38.2692" fill="white" stroke="#016D5B" />
         <rect x="0.984497" y="11.4307" width="83.5692" height="55.1385" fill="url(#pattern3)" />

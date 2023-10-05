@@ -10,7 +10,7 @@ import ArrowRight from '../svgIcons/ArrowRight'
 const MainView = () => {
   return (
     <div>
-       <div className="pt-12">
+       <div className="pt-14">
         <button className="px-8 mb-6 py-2 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D]">Straightforward email security</button>
         <div className="w-full flex flex-col justify-center items-center">
           <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold mb-6 text-gray-700 md:w-7/12 w-[90%] lg:leading-[80px]">Preserve Your Privacy with Unbreakable Email Security</h1>

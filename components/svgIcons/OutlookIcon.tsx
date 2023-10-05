@@ -1,7 +1,7 @@
 import { SvgIconProps } from '@/typings';
 import React from 'react';
 
-const OutlookIcon: React.FC<SvgIconProps> = ({ width = "81", height = "78", ...props }) => (
+const OutlookIcon: React.FC<SvgIconProps> = ({ width = "90", height = "78", ...props }) => (
     <svg width={width} height={height} {...props} viewBox="0 0 81 78" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
         <circle cx="41.3538" cy="38.9999" r="38.2692" fill="white" stroke="#016D5B" />
         <rect y="13.1538" width="77.5385" height="51.6923" fill="url(#pattern4)" />
