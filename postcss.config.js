@@ -3,4 +3,11 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  theme: {
+    extend: {
+      colors: {
+        darkGreen: '#016D5B',
+      },
+    },
+  },
 }
