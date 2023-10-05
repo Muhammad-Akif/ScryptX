@@ -3,14 +3,16 @@ import MainView from '@/components/AboutUs/MainView'
 import TrustedAllies from '@/components/AboutUs/TrustedAllies'
 import BookDemoBanner from '@/components/LandingPage/BookDemoBanner'
 import PrivacyBanner from '@/components/LandingPage/PrivacyBanner'
+import { MainViewDetails } from '@/components/Utils'
 import React from 'react'
 
 const AboutUs = () => {
+  const { title, description } = MainViewDetails[0]
   return (
     <div>
-      <MainView />
+      <MainView title={title} description={description}/>
       <Compliance />
-      <div className="h-full bg-[url('/background.svg')] flex flex-col bg-no-repeat bg-cover text-center">
+      <div className="h-full flex flex-col text-center">
         <BookDemoBanner title="Become a ScrytpX Member" />
       </div>
       <TrustedAllies />

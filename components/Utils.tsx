@@ -88,3 +88,26 @@ export const BenefitsItems = [
     },
 ]
 
+
+export const MainViewDetails = [
+    {
+        name: "AboutUs",
+        title: "Envisioning A Private Digital World",
+        description: "ScryptX was founded in United States Of America in 2014 by a group of scientists who had met at CERN (the European Organization for Nuclear Research). Their mission is to create a superior internet ecosystem with privacy as the default setting."
+    },
+    {
+        name: "ContactUs",
+        title: "Get In Touch With ScryptX",
+        description: "Connect with ScrypX. We're here to assist you and answer any questions or have technical issue you may have. Feel free to contact one of our team members, and we'll take care of all your concerns"
+    },
+    {
+        name: "Services",
+        title: "Explore ScryptX's Encryption Services",
+        description: "Explore ScryptX's array of cutting-edge cryptographic services designed to safeguard your digital assets and information with unmatched expertise and innovation."
+    },
+    {
+        name: "Pricing",
+        title: "Choose The Best Plan That Suits You",
+        description: "Your gateway to affordable, tailored solutions for your cryptographic needs. Explore our pricing options and find the perfect plan to unlock the power of secure data encryption."
+    }
+]

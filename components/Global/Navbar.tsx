@@ -63,7 +63,9 @@ export default function Navbar() {
                                     ))
                                 }
                             </ul>
-                            <button className="px-8 py-3  rounded-md text-white bg-gradient-to-r from-[#016D5B] to-[#017973]">Packages</button>
+                            <Link href={"/pricing"}>
+                                <button className="px-8 py-3  rounded-md text-white bg-gradient-to-r from-[#016D5B] to-[#017973]">Packages</button>
+                            </Link>
                         </div>
                         <div className="md:w-2/12 w-full flex md:hidden justify-end items-center space-x-4 xl:space-x-8">
                             <button aria-label="show options" onClick={() => setMdOptionsToggle(!mdOptionsToggle)} className="text-black dark:text-white dark:hover:text-gray-300 hidden md:flex focus:outline-none focus:ring-2 rounded focus:ring-gray-600">
@@ -115,9 +117,9 @@ export default function Navbar() {
                         </ul>
                     </div>
                     <div className="h-full flex items-end mb-14">
-                        <div className="flex flex-col bg-gray-50 w-full py-5 p-4 dark:bg-gray-800">
+                        <Link href={"/pricing"} className="flex flex-col bg-gray-50 w-full py-5 p-4 dark:bg-gray-800">
                             <button className=" px-8 py-3  rounded-md text-white bg-gradient-to-r from-[#016D5B] to-[#017973]">Packages</button>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
