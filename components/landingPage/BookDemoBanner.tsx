@@ -26,7 +26,7 @@ const BookDemoBanner = () => {
                         <p className="text-base py-2 text-gray-100 md:text-md">
                             Experience our cutting-edge technology in action! Book a demo today  and discover the future of innovation.
                         </p>
-                        <button className="px-8 rounded-md py-3 md:w-[51%] text-white  bg-gradient-to-r from-[#016D5B] to-[#017973] ">
+                        <button className="px-8 rounded-md py-3 md:w-[51%] text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
                             <span className="flex text-white"> Get Started <ArrowRight width="20" className="ms-2" /></span>
                         </button>
                     </div>

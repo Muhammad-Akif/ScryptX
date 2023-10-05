@@ -18,3 +18,15 @@ export const NavItems = [
         name: 'Contact',
     },
 ]
+
+export const PrivacyBannerItems = [
+    {
+        title: "New updates"
+    },
+    {
+        title: "Montly Privacy Updates"
+    },
+    {
+        title: "Weekly Privacy Updates"
+    }
+]

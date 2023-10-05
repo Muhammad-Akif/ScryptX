@@ -1,5 +1,7 @@
 import BookDemoBanner from "@/components/landingPage/BookDemoBanner";
 import MainView from "@/components/landingPage/MainView";
+import PrivacyBanner from "@/components/landingPage/PrivacyBanner";
+import TrustedPeopleBanner from "@/components/landingPage/TrustedPeopleBanner";
 
 export default function Home() {
   return (
@@ -7,6 +9,8 @@ export default function Home() {
       <div className="h-full bg-[url('/background.svg')] flex flex-col bg-no-repeat bg-cover text-center">
         <MainView />
         <BookDemoBanner />
+        <TrustedPeopleBanner />
+        <PrivacyBanner/>
       </div>
     </main>
   )
