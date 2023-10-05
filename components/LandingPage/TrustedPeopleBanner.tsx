@@ -13,8 +13,8 @@ const TrustedPeopleBanner = () => {
                     <p className="text-base py-2 text-gray-100 md:text-md">
                         Expanding its protective reach through a user-friendly app, ScryptX ensures the security of your data while you're on the move
                     </p>
-                    <button className="px-8 rounded-sm py-3 md:w-[51%] text-white  bg-white ">
-                        <span className="flex text-[darkGreen]"> Get Started <ArrowRight color="darkGreen" width="20" className="ms-2" /></span>
+                    <button className="px-8 rounded-sm py-3 md:w-[56%] text-white  bg-white ">
+                        <span className="flex text-[darkGreen] font-semibold"> Create Your Free Account <ArrowRight color="darkGreen" width="20" className="ms-2" /></span>
                     </button>
                 </div>
                 <div className="md:w-1/2 relative  md:mt-0 flex flex-col justify-center md:justify-end">

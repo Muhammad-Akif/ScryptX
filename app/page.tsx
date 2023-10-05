@@ -1,17 +1,23 @@
-import BookDemoBanner from "@/components/landingPage/BookDemoBanner";
-import MainView from "@/components/landingPage/MainView";
-import PrivacyBanner from "@/components/landingPage/PrivacyBanner";
-import TrustedPeopleBanner from "@/components/landingPage/TrustedPeopleBanner";
+import BookDemoBanner from "@/components/LandingPage/BookDemoBanner";
+import MainView from "@/components/LandingPage/MainView";
+import PeopleUsing from "@/components/LandingPage/PeopleUsing";
+import PrivacyBanner from "@/components/LandingPage/PrivacyBanner";
+import PrivacyTrust from "@/components/LandingPage/PrivacyTrust";
+import RapidBenefits from "@/components/LandingPage/RapidBenefits";
+import TrustedPeopleBanner from "@/components/LandingPage/TrustedPeopleBanner";
 
 export default function Home() {
   return (
     <main>
       <div className="h-full bg-[url('/background.svg')] flex flex-col bg-no-repeat bg-cover text-center">
         <MainView />
-        <BookDemoBanner />
-        <TrustedPeopleBanner />
-        <PrivacyBanner/>
+        <BookDemoBanner title="Why You Choose ScryptX"/>
       </div>
+      <RapidBenefits/>
+      <TrustedPeopleBanner />
+      <PrivacyTrust />
+      <PrivacyBanner />
+      <PeopleUsing />
     </main>
   )
 }

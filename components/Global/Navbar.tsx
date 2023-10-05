@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 import AppLogo from "../svgIcons/AppLogo";
 import { NavItems } from "../Utils";
+import Link from "next/link";
 
 export default function Navbar() {
-    const [searchInput, setSearchInput] = useState(true);
     const [mdOptionsToggle, setMdOptionsToggle] = useState(true);
     const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <nav className="dark:bg-gray-900 sticky top-0 z-10">
+        <nav className="dark:bg-gray-900 sticky top-0 z-50">
             <div className="relative">
                 {/* For md screen size */}
                 <div id="md-searchbar" className={`${mdOptionsToggle ? "hidden" : "flex"} bg-white dark:bg-gray-900 lg:hidden py-5 px-6 items-center justify-between`}>
@@ -48,17 +48,17 @@ export default function Navbar() {
                 {/* For large screens */}
                 <div className="dark:bg-gray-900 bg-white px-6 py-5">
                     <div className="lg:container lg:mx-auto flex items-center lg:justify-between">
-                        <h1 className="cursor-pointer text-gray-800 dark:text-white" aria-label="the Crib.">
+                        <Link href={"/"} className="cursor-pointer text-gray-800 dark:text-white" aria-label="the Crib.">
                             <AppLogo />
-                        </h1>
+                        </Link>
                         <div className="hidden md:flex items-center justify-end w-full">
                             <ul className="flex items-center space-x-4 me-8">
                                 {
                                     NavItems.map((item) => (
                                         <li>
-                                            <a href="javascript:void(0)" className="dark:text-white text-base text-gray-800 focus:ring-2 border-none ring-green-300 hover:text-[darkGreen] hover:bg-green-300 p-2 px-4 bg-opacity-10 rounded-lg">
+                                            <Link href={item.path} className="dark:text-white text-base text-gray-800 focus:ring-2 border-none ring-green-300 hover:text-[darkGreen] hover:bg-green-300 p-2 px-4 bg-opacity-10 rounded-lg">
                                                 {item.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))
                                 }
@@ -86,9 +86,9 @@ export default function Navbar() {
                 {/* For small screen */}
                 <div id="mobile-menu" className={`${showMenu ? "flex" : "hidden"} absolute dark:bg-gray-900 z-10 inset-0 md:hidden bg-white flex-col h-screen w-full`}>
                     <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-700 pb-4 p-4">
-                        <div className="flex items-center space-x-3">
+                        <Link href={"/"} className="flex items-center space-x-3">
                             <AppLogo width="150" height="30" />
-                        </div>
+                        </Link>
                         <button onClick={() => setShowMenu(false)} aria-label="close menu" className="focus:outline-none focus:ring-2 rounded focus:ring-gray-600">
                             <svg className="fill-stroke text-gray-800 dark:text-white" width={16} height={16} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12 4L4 12" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
@@ -101,14 +101,14 @@ export default function Navbar() {
                             {
                                 NavItems.map((item) => (
                                     <li>
-                                        <a href="javascript:void(0)" className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800">
+                                        <Link href={item.path} className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800">
                                             {item.name}
                                             <div>
                                                 <svg className="fill-stroke text-black dark:text-white" width={12} height={12} viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="0.75" strokeLinecap="round" strokeLinejoin="round" />
                                                 </svg>
                                             </div>
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))
                             }
