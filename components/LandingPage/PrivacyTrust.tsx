@@ -51,7 +51,7 @@ const PrivacyTrust = () => {
                                         A straightforward solution to a complex problem
                                     </p>
                                 </div>
-                                <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen(!open)}>
+                                <button aria-label="toggler" className="focus:outline-none " onClick={() => setOpen(!open)}>
                                     <svg className={"transform " + (open ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
@@ -74,7 +74,7 @@ const PrivacyTrust = () => {
                                         A simple plug-in
                                     </p>
                                 </div>
-                                <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen2(!open2)}>
+                                <button aria-label="toggler" className="focus:outline-none " onClick={() => setOpen2(!open2)}>
                                     <svg className={"transform " + (open2 ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
@@ -97,7 +97,7 @@ const PrivacyTrust = () => {
                                         Patented encryption technology
                                     </p>
                                 </div>
-                                <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen3(!open3)}>
+                                <button aria-label="toggler" className="focus:outline-none " onClick={() => setOpen3(!open3)}>
                                     <svg className={"transform " + (open ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
@@ -120,7 +120,7 @@ const PrivacyTrust = () => {
                                         Designed to help you succeed"
                                     </p>
                                 </div>
-                                <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen4(!open4)}>
+                                <button aria-label="toggler" className="focus:outline-none " onClick={() => setOpen4(!open4)}>
                                     <svg className={"transform " + (open4 ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
@@ -142,7 +142,7 @@ const PrivacyTrust = () => {
                                         How do i know if a product is available in boutiques?
                                     </p>
                                 </div>
-                                <button aria-label="toggler" className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onClick={() => setOpen5(!open5)}>
+                                <button aria-label="toggler" className="focus:outline-none " onClick={() => setOpen5(!open5)}>
                                     <svg className={"transform " + (open5 ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
