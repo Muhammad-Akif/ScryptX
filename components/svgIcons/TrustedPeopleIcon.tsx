@@ -5,14 +5,14 @@ const TrustedPeopleIcon = ({ width = "503", height = "316", ...props }) => {
         <svg width={width} height={height} {...props} viewBox="0 0 503 316" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
             <circle cx="356.447" cy="146.553" r="145.553" fill="white" />
             <circle cx="356.447" cy="146.553" r="145.553" fill="url(#pattern6)" />
-            <circle cx="356.447" cy="146.553" r="145.553" stroke="white" stroke-width="2" />
+            <circle cx="356.447" cy="146.553" r="145.553" stroke="white" strokeWidth="2" />
             <circle cx="95.6321" cy="218.588" r="94.6321" fill="white" />
             <circle cx="95.6321" cy="218.588" r="94.6321" fill="url(#pattern7)" />
-            <circle cx="95.6321" cy="218.588" r="94.6321" stroke="white" stroke-width="2" />
+            <circle cx="95.6321" cy="218.588" r="94.6321" stroke="white" strokeWidth="2" />
             <circle cx="234.733" cy="238.459" r="77.0025" fill="white" />
             <circle cx="234.5" cy="238.5" r="75.5" fill="white" />
             <circle cx="234.5" cy="238.5" r="75.5" fill="url(#pattern8)" />
-            <circle cx="234.5" cy="238.5" r="75.5" stroke="white" stroke-width="2" />
+            <circle cx="234.5" cy="238.5" r="75.5" stroke="white" strokeWidth="2" />
             <defs>
                 <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
                     <use xlinkHref="#image0_1_4582" transform="translate(-0.166667) scale(0.00277778)" />

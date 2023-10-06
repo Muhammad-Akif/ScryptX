@@ -19,7 +19,7 @@ const PrivacyTrust = () => {
                     </h1>
                     <p className="text-gray-500 mb-6 text-sm md:text-md lg:text-2xl "><strong>ScryptX</strong> offers a hassle-free experience with smooth integration, top-notch security, and cost-effective simplicity, ensuring your productivity soars effortlessly.</p>
 
-                    <button className="px-8 rounded-md py-3 md:w-[55%] text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
+                    <button className="px-8 rounded-md py-3 md:w-[32%] text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
                         <span className="flex text-white font-semibold"> Get Started <ArrowRight width="20" className="ms-2" /></span>
                     </button>
                     <div className='flex items-center pt-3'>

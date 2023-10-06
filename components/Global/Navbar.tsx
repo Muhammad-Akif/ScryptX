@@ -10,7 +10,7 @@ export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <nav className="dark:bg-gray-900 sticky top-0 z-50">
+        <nav className="dark:bg-gray-900 sticky top-0 z-50 w-full">
             <div className="relative">
                 {/* For md screen size */}
                 <div id="md-searchbar" className={`${mdOptionsToggle ? "hidden" : "flex"} bg-white dark:bg-gray-900 lg:hidden py-5 px-6 items-center justify-between`}>

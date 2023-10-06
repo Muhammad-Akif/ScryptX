@@ -9,7 +9,7 @@ const OrganizationNeedIcon = ({ height = "559", width = "727", ...props }) => {
                 <rect x="39.5" y="39.5" width="646" height="478" rx="4.5" stroke="url(#paint0_linear_52_24982)" />
             </g>
             <defs>
-                <filter id="filter0_d_52_24982" x="0" y="0" width="727" height="559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <filter id="filter0_d_52_24982" x="0" y="0" width="727" height="559" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dx="1" dy="1" />

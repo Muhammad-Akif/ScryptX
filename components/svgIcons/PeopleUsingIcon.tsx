@@ -89,13 +89,13 @@ const PeopleUsingIcon: React.FC<SvgIconProps> = ({ width = "1239", height = "489
     <ellipse cx="1059.51" cy="449" rx="20.5128" ry="20" fill="url(#pattern13)"/>
     <circle cx="999" cy="139" r="20" fill="url(#pattern14)"/>
     <ellipse cx="251.747" cy="86" rx="19.7468" ry="20" fill="url(#pattern15)"/>
-    <path d="M174 226.66C310.159 189.922 595.383 173.557 647 402" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
-    <path d="M980 124.183C882.702 64.5075 678.885 37.9246 642 409" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
-    <path d="M268 81.8117C376.237 15.9817 602.968 -13.3425 644 396" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
-    <path d="M346 323.744C436.389 300.433 625.734 290.049 660 435" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
-    <path d="M642.919 395.017C686.537 345.435 793.959 266.354 874.703 346.689" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
-    <path d="M644.599 396.779C751.788 447.729 983.596 533.109 1053.31 467.028" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
-    <path d="M625 89.0211C630.469 21.1398 641.927 -9.09824 644 413" stroke="#373F51" stroke-width="0.5" stroke-dasharray="6 6"/>
+    <path d="M174 226.66C310.159 189.922 595.383 173.557 647 402" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
+    <path d="M980 124.183C882.702 64.5075 678.885 37.9246 642 409" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
+    <path d="M268 81.8117C376.237 15.9817 602.968 -13.3425 644 396" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
+    <path d="M346 323.744C436.389 300.433 625.734 290.049 660 435" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
+    <path d="M642.919 395.017C686.537 345.435 793.959 266.354 874.703 346.689" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
+    <path d="M644.599 396.779C751.788 447.729 983.596 533.109 1053.31 467.028" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
+    <path d="M625 89.0211C630.469 21.1398 641.927 -9.09824 644 413" stroke="#373F51" strokeWidth="0.5" stroke-dasharray="6 6"/>
     <circle cx="631" cy="69" r="20" fill="url(#pattern16)"/>
     <circle cx="340" cy="324" r="20" fill="url(#pattern17)"/>
     <circle cx="633" cy="413" r="79" fill="white" fill-opacity="0.05"/>
