@@ -10,7 +10,7 @@ import ArrowRight from '../svgIcons/ArrowRight'
 const MainView = () => {
   return (
     <div>
-       <div className="pt-14">
+       <div data-aos="fade-zoom-in" className="pt-14">
         <button className="px-8 mb-6 py-2 rounded-full font-bold bg-opacity-10 text-[darkGreen] bg-[#007F7D]">Straightforward email security</button>
         <div className="w-full flex flex-col justify-center items-center">
           <h1 className="text-3xl md:text-4xl lg:text-7xl font-bold mb-6 text-gray-700 md:w-7/12 w-[90%] lg:leading-[80px]">Preserve Your Privacy with Unbreakable Email Security</h1>
@@ -24,7 +24,7 @@ const MainView = () => {
           <button className="px-8 rounded-md py-[0.70rem] text-[darkGreen] border border-[darkGreen]">Why You Choose ScryptX</button>
         </div>
       </div>
-      <div className="relative h-full md:h[400px] -mt-24 overflow-hidden md:overflow-visible md:mt-36 flex flex-col justify-center items-center">
+      <div data-aos="fade-up" className="relative h-full md:h[400px] -mt-24 overflow-hidden md:overflow-visible md:mt-36 flex flex-col justify-center items-center">
         <CircleOutline className="absolute -z-10" />
         <div className="pt-60 md:pt-0">
           <h3 className="md:mb-10 mb-6 font-semibold">ScryptX Compatible With</h3>

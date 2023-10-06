@@ -11,7 +11,7 @@ const PrivacyTrust = () => {
     const [open4, setOpen4] = useState(false);
     const [open5, setOpen5] = useState(false);
     return (
-        <div className="w-full relative mx-auto mt-24 px-4 md:px-6 bg-opacity-90">
+        <div data-aos="zoom-in-up" className="w-full relative mx-auto mt-24 px-4 md:px-6 bg-opacity-90">
             <div className="md:px-72 py-2 md:py-0 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="flex space-y-5 flex-col justify-center md:w-1/2 text-left">
                     <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">About Us</button>
