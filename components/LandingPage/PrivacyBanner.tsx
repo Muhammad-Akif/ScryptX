@@ -20,8 +20,8 @@ const PrivacyBanner = () => {
                     </div>
                     <div className='flex justify-between'>
                         {
-                            PrivacyBannerItems.map(item => (
-                                <span className='flex text-white'>
+                            PrivacyBannerItems.map((item, ind) => (
+                                <span key={ind} className='flex text-white'>
                                     <TickIcon className="me-2"/> {item.title}
                                 </span>
                             ))

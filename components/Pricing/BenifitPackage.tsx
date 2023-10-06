@@ -19,8 +19,9 @@ const BenifitPackage = () => {
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-4 pt-20'>
                     {
-                        BenefitsPackageItems.map(item => (
+                        BenefitsPackageItems.map((item, ind) => (
                             <div
+                            key={ind}
                                 className="group bg-white hover:scale-105 cursor-pointer rounded-lg border px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
                             >
                                 <div className="mb-3">

@@ -54,8 +54,8 @@ export default function Navbar() {
                         <div className="hidden md:flex items-center justify-end w-full">
                             <ul className="flex items-center space-x-4 me-8">
                                 {
-                                    NavItems.map((item) => (
-                                        <li>
+                                    NavItems.map((item, ind) => (
+                                        <li key={ind}>
                                             <Link href={item.path} className="dark:text-white text-base text-gray-800 focus:ring-2 border-none ring-green-300 hover:text-[darkGreen] hover:bg-green-300 p-2 px-4 bg-opacity-10 rounded-lg">
                                                 {item.name}
                                             </Link>
@@ -101,8 +101,8 @@ export default function Navbar() {
                     <div className="mt-6 p-4">
                         <ul className="flex flex-col space-y-6">
                             {
-                                NavItems.map((item) => (
-                                    <li>
+                                NavItems.map((item, ind) => (
+                                    <li key={ind}>
                                         <Link href={item.path} className="dark:text-white flex items-center justify-between hover:underline text-base text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-800">
                                             {item.name}
                                             <div>
