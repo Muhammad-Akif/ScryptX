@@ -1,8 +1,14 @@
+import AddInIcon from "./svgIcons/AddInIcon"
 import CrossPlatformIcon from "./svgIcons/CrossPlatformIcon"
+import EncriptionIcon from "./svgIcons/EncriptionIcon"
+import FexibleLiceneIcon from "./svgIcons/FexibleLiceneIcon"
 import InstallationIcon from "./svgIcons/InstallationIcon"
 import MinimalProfIcon from "./svgIcons/MinimalProfIcon"
+import MobileIcon from "./svgIcons/MobileIcon"
+import ParentTechIcon from "./svgIcons/ParentTechIcon"
 import RobustIcon from "./svgIcons/RobustIcon"
 import SeamlessIcon from "./svgIcons/SeamlessIcon"
+import SecurityDesignIcon from "./svgIcons/SecurityDesignIcon"
 import UserFriendlyIcon from "./svgIcons/UserFriendlyIcon"
 
 export const NavItems = [
@@ -78,6 +84,38 @@ export const ResolveQueriesItems = [
     },
 ]
 
+export const BenefitsPackageItems = [
+    {
+        Icon: ParentTechIcon,
+        title: "Parent Technology",
+        description: "Our unique and innovative patented system removes the complexity headaches usually associated with managing secure email."
+    },
+    {
+        Icon: SecurityDesignIcon,
+        title: "Security By Design",
+        description: "Emails are truly end-to-end encrypted using AES-256, and are never held on, and never pass through our servers."
+    },
+    {
+        Icon: FexibleLiceneIcon,
+        title: "Flexible Licensing",
+        description: "Suspend or re-activate your paid account at any time, safe in the knowledge that you retain read only access to your secure email."
+    },
+    {
+        Icon: EncriptionIcon,
+        title: "One Click Encryption",
+        description: "With just a click of the mouse you can securely encrypt an email and its attachments, and send to anyone."
+    },
+    {
+        Icon: AddInIcon,
+        title: "Outlook Add-IN",
+        description: "Our Outlook add-in provides seamless integration with your desktop email client without sacrificing productivity."
+    },
+    {
+        Icon: MobileIcon,
+        title: "Mobile Support",
+        description: "Mobile apps are available, and browser support instantly allows unregistered recipients access to an encrypted email."
+    },
+]
 export const BenefitsItems = [
     {
         Icon: InstallationIcon,
