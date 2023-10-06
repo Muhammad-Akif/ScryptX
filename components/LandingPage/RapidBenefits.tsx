@@ -3,7 +3,7 @@ import { BenefitsItems } from '../Utils'
 
 const RapidBenefits = () => {
     return (
-        <div className="w-full md:px-72 relative mx-auto mt-24 px-4 md:px-6 bg-opacity-90">
+        <div className="w-full md:px-72 relative mx-auto mt-24 px-4 bg-opacity-90">
             <div className=" py-2 md:py-0 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="flex space-y-5 flex-col justify-center md:w-1/2 text-left">
                     <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">Advantages</button>
@@ -16,7 +16,7 @@ const RapidBenefits = () => {
 
                 </div>
             </div>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-4 pt-20'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-4 pt-20 text-left'>
                 {
                     BenefitsItems.map(item => (
                         <div

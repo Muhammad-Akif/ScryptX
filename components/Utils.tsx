@@ -55,6 +55,27 @@ export const PrivacyTrustQuestions = [
     },
 ]
 
+export const ResolveQueriesItems = [
+    {
+        Icon: InstallationIcon,
+        title: "Our Headquarter",
+        description: "ScryptX has a presence in multiple countries worldwide, with its main headquarters located in the USA.",
+        info: "1234 Elm Street Office no. 352 secure lane ,Los Angeles, California USA"
+    },
+    {
+        Icon: InstallationIcon,
+        title: "Our Phones",
+        description: "ScryptX has contact numbers in multiple countries worldwide, listed below.",
+        info: "Sales : (555) 123-4567 <br/> Queries :(555) 123-4567"
+    },
+    {
+        Icon: InstallationIcon,
+        title: "Our Emails",
+        description: "ScryptX has multiple email address for each separate purposes that are listed below.",
+        info: "Support@scryptx.com <br/> Info@scryptx.com"
+    },
+]
+
 export const BenefitsItems = [
     {
         Icon: InstallationIcon,

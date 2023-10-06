@@ -4,7 +4,7 @@ import ArrowRight from '../svgIcons/ArrowRight'
 
 const OrgNeeds = () => {
     return (
-        <div className="relative pt-20 text-center bg-gray-100">
+        <div className="relative pt-20 text-center bg-gray-50">
             <div className="w-full flex flex-col justify-center items-center">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-6 text-gray-700 md:w-8/12 lg:leading-[80px]">Essential Services Every Organization Needs</h1>
                 <p className="text-gray-500 text-sm md:text-md lg:text-xl md:w-7/12">Discover customized, cost-effective solutions for your cryptographic requirements through our portal. Explore our pricing choices to discover the ideal package for harnessing the potential of secure data encryption
