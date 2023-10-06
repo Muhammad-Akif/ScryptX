@@ -17,7 +17,7 @@ const PrivacyTrust = () => {
                     <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">About Us</button>
                     <h1 className="text-4xl pbmd:text-3xl font-semibold ">ScryptX is privacy you can trust
                     </h1>
-                    <p className="text-gray-500 mb-6 text-sm md:text-md lg:text-2xl md:w-7/12"><strong>ScryptX</strong> offers a hassle-free experience with smooth integration, top-notch security, and cost-effective simplicity, ensuring your productivity soars effortlessly.</p>
+                    <p className="text-gray-500 mb-6 text-sm md:text-md lg:text-2xl "><strong>ScryptX</strong> offers a hassle-free experience with smooth integration, top-notch security, and cost-effective simplicity, ensuring your productivity soars effortlessly.</p>
 
                     <button className="px-8 rounded-md py-3 md:w-[29.5%] text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
                         <span className="flex text-white font-semibold"> Get Started <ArrowRight width="20" className="ms-2" /></span>

@@ -1,4 +1,5 @@
 import MainView from '@/components/AboutUs/MainView'
+import ContactForm from '@/components/ContactUs/ContactForm'
 import ResolveQueries from '@/components/ContactUs/ResolveQueries'
 import { QuickConcerns } from '@/components/Services/QuickConcerns'
 import { MainViewDetails } from '@/components/Utils'
@@ -10,6 +11,7 @@ const page = () => {
         <div>
             <MainView title={title} description={description} />
             <ResolveQueries />
+            <ContactForm />
             <QuickConcerns />
         </div>
     )
