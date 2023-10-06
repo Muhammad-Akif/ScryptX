@@ -9,7 +9,7 @@ export const QuickConcerns = () => {
     const [open4, setOpen4] = useState(false);
     const [open5, setOpen5] = useState(false);
     return (
-        <div className="relative pt-20 text-center bg-gray-100">
+        <div className="relative pt-20 text-center bg-gray-50">
             <div className="w-full flex flex-col justify-center items-center">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-6 text-gray-700 md:w-8/12 lg:leading-[80px]">Get Quick Answers to Your Concerns</h1>
             </div>

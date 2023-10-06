@@ -1,5 +1,6 @@
 import MainView from '@/components/AboutUs/MainView'
 import ResolveQueries from '@/components/ContactUs/ResolveQueries'
+import { QuickConcerns } from '@/components/Services/QuickConcerns'
 import { MainViewDetails } from '@/components/Utils'
 import React from 'react'
 
@@ -9,6 +10,7 @@ const page = () => {
         <div>
             <MainView title={title} description={description} />
             <ResolveQueries />
+            <QuickConcerns />
         </div>
     )
 }

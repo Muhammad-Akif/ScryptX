@@ -10,13 +10,12 @@ const RapidBenefits = () => {
                     <h1 className="text-4xl pbmd:text-3xl font-semibold lg:leading-[50px]">Get a Rapid Overview of <strong className='text-[#016D5B]'>ScryptX's</strong> Benefits
                     </h1>
                 </div>
-                {/* <PrivacyBgLogo className="absolute left-0 -bottom-40" /> */}
                 <div className="md:w-1/2 md:mt-0 pt-5 flex justify-center md:justify-end">
                     <p className="text-gray-500 text-sm md:text-md lg:text-xl pt-12"><strong>ScryptX</strong> offers a hassle-free experience with smooth integration, top-notch security, and cost-effective simplicity, ensuring your productivity soars effortlessly.</p>
 
                 </div>
             </div>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-4 pt-20 text-left'>
+            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-4 pt-20'>
                 {
                     BenefitsItems.map(item => (
                         <div
