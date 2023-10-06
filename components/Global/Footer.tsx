@@ -18,7 +18,7 @@ const Footer = () => {
                             <button className=" px-8 py-3 rounded-md text-white bg-[#01B093]">(+62) 8899-3430</button>
                         </div>
                     </div>
-                    <div className="h-[2px] w-[42%] bg-white absolute top-[90%] right-[25%]" />
+                    <div className="h-[2px] w-[42%] bg-white absolute top-[90%] 2xl:right-[25%] right-[18%]" />
                     <div className="md:w-1/2  flex justify-center  items-center">
                         <div className="w-full ps-[50%]">
                             <PlayIcon className="animate-ping " />
