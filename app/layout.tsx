@@ -20,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <div className='overflow-x-hidden'>
         <AOSInit/>
         <Navbar />
         {children}
         <Footer />
+        </div>
       </body>
     </html>
   )
