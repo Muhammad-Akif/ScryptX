@@ -5,15 +5,15 @@ import ArrowRight from '../svgIcons/ArrowRight'
 import PrivacyBgLogo from '../svgIcons/PrivacyBgLogo'
 
 const PrivacyTrust = () => {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
     const [open2, setOpen2] = useState(false);
     const [open3, setOpen3] = useState(false);
     const [open4, setOpen4] = useState(false);
     const [open5, setOpen5] = useState(false);
     return (
-        <div data-aos="zoom-in-up" className="w-full relative mx-auto mt-24 bg-opacity-90">
-            <div className="md:px-36 py-2 md:py-0 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
-                <div className="flex space-y-5 flex-col justify-center md:w-1/2 text-left">
+        <div data-aos="zoom-in-up" className="w-full relative mx-auto py-24 bg-gray-50 bg-opacity-90">
+            <div className="md:px-36 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
+                <div className="flex space-y-5 flex-col justify-start md:w-1/2 text-left">
                     <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">About Us</button>
                     <h1 className="text-4xl pbmd:text-3xl font-semibold ">ScryptX is privacy you can trust
                     </h1>
@@ -38,12 +38,12 @@ const PrivacyTrust = () => {
                         </div>
                     </div>
                 </div>
-                <PrivacyBgLogo className="absolute left-0 -bottom-40" />
+                <PrivacyBgLogo className="absolute left-0 -bottom-10" />
                 <div className="md:w-1/2 mt-8 md:mt-0 pt-5 flex justify-center md:justify-end">
                     <div className="lg:w-11/12 w-full ">
                         {/* <!-- Question 1 --> */}
 
-                        <div className="w-full md:px-6  ">
+                        <div className="p-6 bg-white scale-105 mb-6 rounded-lg ">
                             <div id="mainHeading" className="flex justify-between items-center w-full">
                                 <div className=" ">
                                     <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
@@ -57,19 +57,27 @@ const PrivacyTrust = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <div id="menu" className={"mt-6 w-full " + (open ? "block" : "hidden")}>
-                                <p className="text-base leading-6 text-gray-600 font-normal">ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                            <div id="menu" className={"mt-3 w-full"}>
+                                {
+                                    open ?
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                        <br />
+                                        <br />
+                                            Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
+                                        :
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                }
                             </div>
                         </div>
 
                         {/* <!-- Question 2 --> */}
 
-                        <hr className=" w-full lg:mt-10 my-8" />
 
-                        <div className="w-full md:px-6 ">
+
+                        <div className="p-6 bg-white scale-105 mb-6 rounded-lg">
                             <div id="mainHeading" className="flex justify-between items-center w-full">
                                 <div className="">
-                                     <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
+                                    <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
                                         {" "}
                                         A simple plug-in
                                     </p>
@@ -80,42 +88,58 @@ const PrivacyTrust = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <div id="menu" className={"mt-6 w-full " + (open2 ? "block" : "hidden")}>
-                                <p className="text-base leading-6 text-gray-600 font-normal">ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                            <div id="menu" className={"mt-3 w-full"}>
+                                {
+                                    open2 ?
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                          <br />
+                                        <br />
+                                            Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
+                                        :
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                }
                             </div>
                         </div>
 
                         {/* <!-- Question 3 --> */}
 
-                        <hr className=" w-full lg:mt-10 my-8" />
 
-                        <div className="w-full md:px-6 ">
+
+                        <div className="p-6 bg-white scale-105 mb-6 rounded-lg">
                             <div id="mainHeading" className="flex justify-between items-center w-full">
                                 <div className="">
-                                <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
+                                    <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
                                         {" "}
                                         Patented encryption technology
                                     </p>
                                 </div>
                                 <button aria-label="toggler" className="focus:outline-none " onClick={() => setOpen3(!open3)}>
-                                    <svg className={"transform " + (open ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className={"transform " + (open3 ? "rotate-180" : "rotate-0")} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M6 9L12 15L18 9" stroke="black" strokeWidth="1.33333" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </button>
                             </div>
-                            <div id="menu" className={"mt-6 w-full " + (open3 ? "block" : "hidden")}>
-                                <p className="text-base leading-6 text-gray-600 font-normal">ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                            <div id="menu" className={"mt-3 w-full"}>
+                                {
+                                    open3 ?
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                          <br />
+                                        <br />
+                                            Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
+                                        :
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                }
                             </div>
                         </div>
 
                         {/* <!-- Question 4 --> */}
 
-                        <hr className=" w-full lg:mt-10 my-8" />
 
-                        <div className="w-full md:px-6  ">
+
+                        <div className="p-6 bg-white scale-105 mb-6 rounded-lg ">
                             <div id="mainHeading" className="flex justify-between items-center w-full">
                                 <div className="">
-                                <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
+                                    <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
                                         {" "}
                                         Designed to help you succeed"
                                     </p>
@@ -126,18 +150,26 @@ const PrivacyTrust = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <div id="menu" className={"mt-6 w-full " + (open4 ? "block" : "hidden")}>
-                                <p className="text-base leading-6 text-gray-600 font-normal">ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                            <div id="menu" className={"mt-3 w-full"}>
+                                {
+                                    open4 ?
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                          <br />
+                                        <br />
+                                            Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
+                                        :
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                }
                             </div>
                         </div>
 
                         {/* <!-- Question 5 --> */}
-                        <hr className=" w-full lg:mt-10 my-8" />
 
-                        <div className="w-full md:px-6 ">
+
+                        <div className="p-6 bg-white scale-105 mb-6 rounded-lg">
                             <div id="mainHeading" className="flex justify-between items-center w-full">
                                 <div className="">
-                                <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
+                                    <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-[#016D5B]">
                                         {" "}
                                         How do i know if a product is available in boutiques?
                                     </p>
@@ -148,8 +180,16 @@ const PrivacyTrust = () => {
                                     </svg>
                                 </button>
                             </div>
-                            <div id="menu" className={"mt-6 w-full " + (open5 ? "block" : "hidden")}>
-                                <p className="text-base leading-6 text-gray-600 font-normal">ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                            <div id="menu" className={"mt-3 w-full"}>
+                                {
+                                    open5 ?
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                          <br />
+                                        <br />
+                                            Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
+                                        :
+                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                }
                             </div>
                         </div>
 

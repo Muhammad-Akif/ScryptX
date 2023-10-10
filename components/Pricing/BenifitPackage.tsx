@@ -3,9 +3,9 @@ import { BenefitsPackageItems } from '../Utils'
 
 const BenifitPackage = () => {
     return (
-        <div className='relative'>
-            <div className='absolute w-full bg-[#016D5B] h-[60%] -top-12 ' />
-            <div className="w-full md:px-72 relative mx-auto mt-24 px-4 bg-opacity-90">
+        <div className='relative pb-24'>
+            <div className='absolute w-full bg-[#016D5B] h-[52%] -top-12 ' />
+            <div className="w-full md:px-36 relative mx-auto mt-24 px-4 bg-opacity-90">
                 <div className=" py-2 md:py-0 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                     <div className="flex space-y-5 flex-col justify-center md:w-1/2 text-left">
                         <button className=" py-1 rounded-full bg-opacity-10 text-white bg-white w-32 text-sm font-semibold">Advantages</button>
