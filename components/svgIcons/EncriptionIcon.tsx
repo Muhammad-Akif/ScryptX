@@ -14,7 +14,7 @@ const EncriptionIcon = ({ size = "48", ...props }) => {
             <path d="M19.6756 20.6H19.6828" stroke="#016D5B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             <defs>
                 <filter id="filter0_d_52_21250" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dy="4" />
                     <feGaussianBlur stdDeviation="2" />

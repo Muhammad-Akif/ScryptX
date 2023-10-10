@@ -18,7 +18,7 @@ const ParentTechIcon = ({ size = "48", ...props }) => {
         <path d="M28.64 28.6H25.76C25.232 28.6 24.8 28.168 24.8 27.64V26.36C24.8 25.832 25.232 25.4 25.76 25.4H28.64C29.168 25.4 29.6 25.832 29.6 26.36V27.64C29.6 28.168 29.168 28.6 28.64 28.6Z" stroke="#016D5B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         <defs>
         <filter id="filter0_d_52_21242" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feFlood floodOpacity="0" result="BackgroundImageFix"/>
         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
         <feOffset dy="4"/>
         <feGaussianBlur stdDeviation="2"/>

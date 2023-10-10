@@ -14,7 +14,7 @@ const PrivacyTrust = () => {
         <div data-aos="zoom-in-up" className="w-full relative mx-auto py-24 bg-gray-50 bg-opacity-90">
             <div className="md:px-36 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="flex space-y-5 flex-col justify-start md:w-1/2 text-left">
-                    <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">About Us</button>
+                    <button className=" py-1 rounded-full bg-opacity-10 text-[#016D5B] bg-[#007F7D] w-32 text-sm font-semibold">About Us</button>
                     <h1 className="text-4xl pbmd:text-3xl font-semibold ">ScryptX is privacy you can trust
                     </h1>
                     <p className="text-gray-500 mb-6 text-sm md:text-md lg:text-2xl "><strong>ScryptX</strong> offers a hassle-free experience with smooth integration, top-notch security, and cost-effective simplicity, ensuring your productivity soars effortlessly.</p>

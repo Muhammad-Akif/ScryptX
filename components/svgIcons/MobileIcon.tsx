@@ -12,7 +12,7 @@ const MobileIcon = ({size="48", ...props}) => {
     <path d="M24.28 26.561C25.059 26.561 25.6905 25.9295 25.6905 25.1505C25.6905 24.3715 25.059 23.74 24.28 23.74C23.501 23.74 22.8695 24.3715 22.8695 25.1505C22.8695 25.9295 23.501 26.561 24.28 26.561Z" stroke="#016D5B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
     <defs>
     <filter id="filter0_d_52_21285" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dy="4"/>
     <feGaussianBlur stdDeviation="2"/>

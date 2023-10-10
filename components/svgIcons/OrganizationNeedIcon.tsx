@@ -10,8 +10,8 @@ const OrganizationNeedIcon = ({ height = "559", width = "727", ...props }) => {
         </g>
         <path d="M687 513C687 515.761 684.761 518 682 518L44 518C41.2386 518 39 515.761 39 513V151L687 151V513Z" fill="url(#paint1_linear_182_15750)"/>
         <defs>
-        <filter id="filter0_d_182_15750" x="0" y="0" width="727" height="559" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <filter id="filter0_d_182_15750" x="0" y="0" width="727" height="559" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+        <feFlood floodOpacity="0" result="BackgroundImageFix"/>
         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
         <feOffset dx="1" dy="1"/>
         <feGaussianBlur stdDeviation="20"/>

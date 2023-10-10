@@ -6,7 +6,7 @@ const RapidBenefits = () => {
         <div className="w-full md:px-36 relative mx-auto py-24 px-4 bg-opacity-90 bg-gray-50">
             <div className=" py-2 md:py-0 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="flex space-y-5 flex-col justify-center md:w-1/2 text-left">
-                    <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">Advantages</button>
+                    <button className=" py-1 rounded-full bg-opacity-10 text-[#016D5B] bg-[#007F7D] w-32 text-sm font-semibold">Advantages</button>
                     <h1 className="text-4xl pbmd:text-3xl font-semibold lg:leading-[50px]">Get a Rapid Overview of <strong className='text-[#016D5B]'>ScryptX's</strong> Benefits
                     </h1>
                 </div>

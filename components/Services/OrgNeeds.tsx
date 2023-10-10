@@ -18,7 +18,7 @@ const OrgNeeds = () => {
                             <p className="w-[55%] pb-3 text-2xl  font-semibold leading-9 text-left">
                                 A Straight Forward Solution To A Complex Problem
                             </p>
-                            <button className="px-8 rounded-md py-[0.70rem] text-[darkGreen] border border-[darkGreen] flex">Explore More <ArrowRight color={"darkGreen"} /></button>
+                            <button className="px-8 rounded-md py-[0.70rem] text-[#016D5B] border border-[#016D5B] flex">Explore More <ArrowRight color={"#016D5B"} /></button>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const OrgNeeds = () => {
                                     <p className="w-[55%] pb-3 text-2xl  font-semibold leading-9 text-left">
                                         A Straight Forward Solution To A Complex Problem
                                     </p>
-                                    <button className="px-8 rounded-md py-[0.70rem] text-[darkGreen] border border-[darkGreen] flex">Explore More <ArrowRight color={"darkGreen"} /></button>
+                                    <button className="px-8 rounded-md py-[0.70rem] text-[#016D5B] border border-[#016D5B] flex">Explore More <ArrowRight color={"#016D5B"} /></button>
                                 </div>
                             </div>
                     </div>

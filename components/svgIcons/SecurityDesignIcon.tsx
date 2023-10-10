@@ -11,7 +11,7 @@ const SecurityDesignIcon = ({ size = "48", ...props }) => {
     <path d="M21.24 19.496L22.528 20.784L25.968 17.344" stroke="#016D5B" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
     <defs>
     <filter id="filter0_d_52_21258" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
     <feOffset dy="4"/>
     <feGaussianBlur stdDeviation="2"/>

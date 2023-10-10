@@ -50,7 +50,7 @@ const TrustedAlliesIcon = ({ width = "1130", height = "610", ...props }) => {
                     <use xlinkHref="#image0_52_17593" transform="matrix(0.00250337 0 0 0.0015456 -0.901888 0)" />
                 </pattern>
                 <filter id="filter0_d_52_17593" x="39" y="58" width="58" height="58" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dy="4" />
                     <feGaussianBlur stdDeviation="2" />
@@ -63,7 +63,7 @@ const TrustedAlliesIcon = ({ width = "1130", height = "610", ...props }) => {
                     <use xlinkHref="#image0_52_17593" transform="matrix(0.00250337 0 0 0.0015456 -0.901888 0)" />
                 </pattern>
                 <filter id="filter1_d_52_17593" x="415" y="362" width="58" height="58" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dy="4" />
                     <feGaussianBlur stdDeviation="2" />
@@ -76,7 +76,7 @@ const TrustedAlliesIcon = ({ width = "1130", height = "610", ...props }) => {
                     <use xlinkHref="#image0_52_17593" transform="matrix(0.00250337 0 0 0.0015456 -0.901888 0)" />
                 </pattern>
                 <filter id="filter2_d_52_17593" x="793" y="59" width="58" height="58" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dy="4" />
                     <feGaussianBlur stdDeviation="2" />
