@@ -6,11 +6,11 @@ interface Props {
 }
 const MainView = ({ title, description }: Props) => {
     return (
-        <div className="w-full relative mx-auto px-4 md:px-6 bg-opacity-90 bg-[#016D5B]">
+        <div className="w-full relative mx-auto bg-opacity-90 bg-[#016D5B]">
             <div className=" py-36 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
-                <div className="flex md:w-[45%] flex-col space-y-5 justify-center text-center">
+                <div className="flex md:w-[52%] flex-col space-y-5 justify-center text-center">
                     <h1 className="text-3xl md:text-[44px] font-bold text-white">{title}</h1>
-                    <p className="text-base py-2 text-gray-100 md:text-md">
+                    <p className="text-md py-2 text-gray-100 md:text-md">
                         {description}
                     </p>
                 </div>
