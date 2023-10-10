@@ -56,7 +56,7 @@ export default function Navbar() {
                                 {
                                     NavItems.map((item, ind) => (
                                         <li key={ind}>
-                                            <Link href={item.path} className="dark:text-white text-base text-gray-800 focus:ring-2 border-none ring-green-300 hover:text-[#016D5B] hover:bg-green-300 p-2 px-4 bg-opacity-10 rounded-lg">
+                                            <Link href={item.path} className="dark:text-white text-base text-gray-800 focus:ring-2 border-none ring-white hover:text-[#016D5B] p-2 px-4 bg-opacity-10 rounded-lg">
                                                 {item.name}
                                             </Link>
                                         </li>
