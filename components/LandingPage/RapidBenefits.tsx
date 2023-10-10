@@ -3,7 +3,7 @@ import { BenefitsItems } from '../Utils'
 
 const RapidBenefits = () => {
     return (
-        <div className="w-full md:px-36 relative mx-auto mt-24 px-4 bg-opacity-90">
+        <div className="w-full md:px-36 relative mx-auto py-24 px-4 bg-opacity-90 bg-gray-50">
             <div className=" py-2 md:py-0 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="flex space-y-5 flex-col justify-center md:w-1/2 text-left">
                     <button className=" py-1 rounded-full bg-opacity-10 text-[darkGreen] bg-[#007F7D] w-32 text-sm font-semibold">Advantages</button>
@@ -15,12 +15,12 @@ const RapidBenefits = () => {
 
                 </div>
             </div>
-            <div data-aos="zoom-out-down" className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-8 gap-4 pt-20'>
+            <div data-aos="zoom-out-down" className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 pt-20'>
                 {
                     BenefitsItems.map((item, ind) => (
                         <div
                         key={ind}
-                            className="group hover:scale-105 cursor-pointer rounded-lg border px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+                            className={`group hover:scale-105 hover:border-none cursor-pointer ${(ind === 1 || ind === 4) ? "" : "border-x-2" } border-b-2 px-5 py-4 transition-colors  hover:bg-white hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30`}
                         >
                             <div  className="ring-1 p-2 mb-3 ring-[#016D5B] rounded-full w-10">
                                 <item.Icon />

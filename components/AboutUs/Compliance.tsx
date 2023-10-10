@@ -13,7 +13,7 @@ const Compliance = () => {
                         <br />
                         <br />
                         <strong className='text-[#373F51]'>ScryptX</strong> exists to serve the world. Our first and only obligation is always to the <strong className='text-[#373F51]'>ScryptX</strong> community, not advertisers or other third parties. We do not compromise your trust by selling your data and never will & that's our top priority.              </p>
-                    <button className="px-8 rounded-sm py-3 md:w-[287px] text-white  bg-gradient-to-r from-[#016D5B] to-[#017973] ">
+                    <button className="px-8 rounded-sm py-3 md:w-[300px] text-white  bg-gradient-to-r from-[#016D5B] to-[#017973] ">
                         <span className="flex font-semibold"> Create Your Free Account <ArrowRight width="20" className="ms-2" /></span>
                     </button>
                 </div>

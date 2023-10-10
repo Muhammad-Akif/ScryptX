@@ -6,7 +6,7 @@ import BannerCircleIcon from '../svgIcons/BannerCircleIcon'
 
 const TrustedPeopleBanner = () => {
     return (
-        <div className="w-full relative mx-auto mt-36 bg-opacity-90 bg-[#016D5B]">
+        <div className="w-full relative mx-auto bg-opacity-90 bg-[#016D5B]">
             <div className="md:px-36 z-30 flex items-strech justify-center flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 lg:space-x-8">
                 <div className="flex flex-col space-y-5 justify-center md:w-1/2 text-left">
                     <h1 className="text-4xl md:text-3xl font-semibold text-white"><strong>ScryptX</strong> is trusted by tens of millions of people worldwide to safeguard their confidential communications.</h1>

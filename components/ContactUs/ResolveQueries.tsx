@@ -13,7 +13,7 @@ const ResolveQueries = () => {
                     ResolveQueriesItems.map((item, ind) => (
                         <div
                         key={ind}
-                            className={`group cursor-pointer rounded-lg ${(ind === (ResolveQueriesItems.length - 1)) ? "border-x-2" : "border-l-2" } px-5 py-10 transition-colors hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30`}
+                            className={`group cursor-pointer rounded-lg ${ind !== 1 ? "border-x-2" : "" } px-5 py-10 transition-colors hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30`}
                         >
                             <div className="ring-1 p-2 mb-3 ring-[#016D5B] rounded-full w-10">
                                 <item.Icon />
