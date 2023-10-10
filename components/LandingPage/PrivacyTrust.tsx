@@ -19,20 +19,20 @@ const PrivacyTrust = () => {
                     </h1>
                     <p className="text-gray-500 mb-6 text-sm md:text-md lg:text-2xl "><strong>ScryptX</strong> offers a hassle-free experience with smooth integration, top-notch security, and cost-effective simplicity, ensuring your productivity soars effortlessly.</p>
 
-                    <button className="px-8 rounded-md py-3 md:w-[32%] text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
+                    <button className="px-8 rounded-md py-3 md:w-[185px] text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
                         <span className="flex text-white font-semibold"> Get Started <ArrowRight width="20" className="ms-2" /></span>
                     </button>
                     <div className='flex items-center pt-3'>
                         <div className='pe-8'>
                             <h1 className="text-4xl md:text-3xl font-semibold text-[#016D5B]">1200</h1>
-                            <p className="text-base py-2 text-gray-500 md:text-md">
+                            <p className="text-sm py-2 text-gray-500 md:text-md">
                                 Satisfied Clients
                             </p>
                         </div>
                         <div className='h-[80%] border-l-4 border-[#016D5B]' />
                         <div className='ps-10'>
                             <h1 className="text-4xl md:text-3xl font-semibold text-[#016D5B]">120K</h1>
-                            <p className="text-base py-2 text-gray-500 md:text-md">
+                            <p className="text-sm py-2 text-gray-500 md:text-md">
                                 Chrome Extensions Installed
                             </p>
                         </div>
@@ -60,12 +60,12 @@ const PrivacyTrust = () => {
                             <div id="menu" className={"mt-3 w-full"}>
                                 {
                                     open ?
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
                                         <br />
                                         <br />
                                             Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
                                         :
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
                                 }
                             </div>
                         </div>
@@ -91,12 +91,12 @@ const PrivacyTrust = () => {
                             <div id="menu" className={"mt-3 w-full"}>
                                 {
                                     open2 ?
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
                                           <br />
                                         <br />
                                             Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
                                         :
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
                                 }
                             </div>
                         </div>
@@ -122,12 +122,12 @@ const PrivacyTrust = () => {
                             <div id="menu" className={"mt-3 w-full"}>
                                 {
                                     open3 ?
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
                                           <br />
                                         <br />
                                             Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
                                         :
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
                                 }
                             </div>
                         </div>
@@ -153,12 +153,12 @@ const PrivacyTrust = () => {
                             <div id="menu" className={"mt-3 w-full"}>
                                 {
                                     open4 ?
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
                                           <br />
                                         <br />
                                             Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
                                         :
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
                                 }
                             </div>
                         </div>
@@ -183,12 +183,12 @@ const PrivacyTrust = () => {
                             <div id="menu" className={"mt-3 w-full"}>
                                 {
                                     open5 ?
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>For small and medium-sized businesses (SMEs), ScryptX is the simplest solution to one of the most pressing IT security issues of the moment: email encryption.
                                           <br />
                                         <br />
                                             Historically, encryption has been complex and expensive to implement - and therefore only accessible by large organizations. ScryptX makes security and privacy of data accessible for businesses of all sizes. Its Microsoft Outlook, Android, iOS and web browser tools use the patented privacy SaPaas developed by Scentrics to ensure that standards-based encryption can be applied to messages and attachments the moment your users are ready to click 'send'.</p>
                                         :
-                                        <p className={`text-base leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
+                                        <p className={`text-sm leading-6 text-gray-600 font-normal`}>ScryptX have combined two key components: the Scentrics security and privacy service, and a suite of tools for mobile...</p>
                                 }
                             </div>
                         </div>

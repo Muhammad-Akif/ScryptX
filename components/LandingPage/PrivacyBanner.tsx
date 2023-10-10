@@ -14,7 +14,7 @@ const PrivacyBanner = () => {
                     </p>
                     <div className="sm:border border-white flex-col sm:flex-row  flex items-center w-full mt-12 space-y-4 sm:space-y-0">
                         <input className="border border-white sm:border-transparent text-base w-full font-medium leading-none text-white p-4 focus:outline-none bg-transparent placeholder-white" placeholder="Email Address" />
-                        <button className="px-8 py-2 w-[210px] me-1 text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
+                        <button className="px-8 py-2 w-[220px] me-1 text-white  bg-gradient-to-r from-[#01B093] to-[#00A79E] ">
                             <span className="flex text-white "> Get Started <ArrowRight width="20" className="ms-2" /></span>
                         </button>
                     </div>
